@@ -1,0 +1,11 @@
+{
+    "type": "user.register",
+    "data": {
+        "user": {
+            "firstname": "John",
+            "lastname": "Smith",
+            "email": "john.smith@anonymous.org",
+            "...": "..."
+        }
+    }
+}
