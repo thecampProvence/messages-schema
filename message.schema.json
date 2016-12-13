@@ -1,0 +1,20 @@
+{
+    "title": "Message skeleton",
+    "description": "Message skeleton",
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "message.schema.json#",
+    "properties": {
+        "type": {
+            "type": "string",
+            "title": "Type"
+        },
+        "data": {
+            "title": "Message data",
+            "type": "array",
+            "items": {}
+        }
+    },
+    "required": ["type", "data"],
+    "additionalProperties": false
+}
