@@ -5,7 +5,7 @@
     "id": "sales/first_contact.schema.json#",
     "properties": {
         "user": {
-            "$ref": "../user/prospect.schema.json#"
+            "$ref": "https://github.com/thecampProvence/messages-schema/blob/master/user/prospect.schema.json#"
         },
         "comment": {
             "type": "string",

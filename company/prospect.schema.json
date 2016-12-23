@@ -9,7 +9,7 @@
             "title": "Firstname"
         },
         "location": {
-            "$ref": "../location/location.schema.json#"
+            "$ref": "https://github.com/thecampProvence/messages-schema/blob/master/location/location.schema.json#"
         }
     },
     "required": [

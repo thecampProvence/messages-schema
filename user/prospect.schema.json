@@ -37,7 +37,7 @@
             "pattern": "[a-z]{2}"
         },
         "company": {
-            "$ref": "../company/prospect.schema.json#"
+            "$ref": "https://github.com/thecampProvence/messages-schema/blob/master/company/prospect.schema.json#"
         }
     },
     "required": [
