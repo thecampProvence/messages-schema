@@ -1,0 +1,24 @@
+{
+    "title": "sales.first_contact",
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "sales/first_contact.schema.json#",
+    "properties": {
+        "user": {
+            "$ref": "../user/prospect.schema.json#"
+        },
+        "comment": {
+            "type": "string",
+            "title": "Comment"
+        },
+        "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+        }
+    },
+    "required": [
+        "user",
+        "createdAt"
+    ]
+}

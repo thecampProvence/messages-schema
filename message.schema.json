@@ -15,6 +15,9 @@
             "items": {}
         }
     },
-    "required": ["type", "data"],
+    "required": [
+        "type",
+        "data"
+    ],
     "additionalProperties": false
 }

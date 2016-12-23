@@ -1,0 +1,26 @@
+{
+    "type": "sales.first_contact",
+    "data": {
+        "user": {
+            "civility": "Mrs.",
+            "firstname": "Martine",
+            "lastname": "Smith",
+            "email": "martine.smith@anonymous.org",
+            "office_phone": "+33 4 32 16 54 98",
+            "mobile_phone": "+33 6 32 16 54 98",
+            "company_position": "Human Ressources Director",
+            "locale": "fr",
+            "company": {
+                "name": "HighCo",
+                "location": {
+                    "address": "365 Avenue Archimède – CS 60346",
+                    "postalCode": 13799,
+                    "city": "Aix-en-Provence Cedex 3",
+                    "countryCode": "FR"
+                }
+            }
+        },
+        "comment": "Martine's comment",
+        "created_at": "2016-12-23T10:46:44+0100"
+    }
+}

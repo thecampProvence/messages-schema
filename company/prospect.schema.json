@@ -1,0 +1,19 @@
+{
+    "title": "Company prospect",
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "company/prospect.schema.json#",
+    "properties": {
+        "name": {
+            "type": "string",
+            "title": "Firstname"
+        },
+        "location": {
+            "$ref": "../location/location.schema.json#"
+        }
+    },
+    "required": [
+        "name",
+        "location"
+    ]
+}
